@@ -1,5 +1,5 @@
 function getProjects() {
-    const urlGitHub = 'https://api.github.com/users/GomesGuilhermePT07/repos';
+    const urlGitHub = 'https://api.github.com/users/dev-ggomes/repos';
     var loadingElement = document.getElementById('loading')
 
     fetch(urlGitHub, {
